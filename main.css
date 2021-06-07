@@ -19,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+p{
+   cursor: default;
+}
+
 .container {
   padding-left: 208px;
   padding-right: 208px;
@@ -95,9 +99,13 @@ a {
   font-weight: bold;
   font-size: 48px;
   line-height: 56px;
-  color: #333333;
+  color: #363131;
   padding-bottom: 35px;
   cursor: default;
+}
+
+.heading--gray {
+  color: #333333;
 }
 
 .heading-desc {
@@ -116,10 +124,10 @@ a {
   padding-top: 180px;
 }
 
-.main__flex-wrapper{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
+.main__flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .main__slider--left {
@@ -144,13 +152,33 @@ a {
   justify-content: center;
 }
 
-.main__right-icons{
-   position: absolute;
-   right: 30px;
-   top: 230px;
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
+.main__right-icons {
+  position: absolute;
+  right: 30px;
+  top: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* End section main */
+
+/* Start section outfit */
+
+.outfit {
+  padding: 41px 643px 81px 0;
+}
+
+.outfit__menu {
+  padding-bottom: 20px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 180%;
+  color: #363131;
+}
+
+.heading-desc--lh{
+   line-height: 180%;
+}
+/* End section outfit */
