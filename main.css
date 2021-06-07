@@ -1,0 +1,72 @@
+/* font-family: 'Arimo', sans-serif;
+font-family: 'Noto Sans', sans-serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 208px;
+  padding-right: 208px;
+}
+
+/* Start section top */
+
+.top {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+  display: flex;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu__list {
+  display: flex;
+  gap: 50px;
+}
+
+.menu__list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #363131;
+}
+
+.top__phone-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363131;
+}
+
+.top__phone::before {
+  content: "";
+  padding-right: 33px;
+  background-image: url("./image/icons/Calling.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* End section top */
+
+
