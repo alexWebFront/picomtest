@@ -3,11 +3,11 @@ font-family: 'Noto Sans', sans-serif; */
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -69,4 +69,88 @@ a {
 
 /* End section top */
 
+/* Start section main */
 
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  margin: 0;
+  border: 1px solid #ff5f01;
+  height: 50px;
+}
+
+.main {
+  padding-top: 150px;
+  padding-bottom: 99px;
+  background-image: url("./image/masthead-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  color: #333333;
+  padding-bottom: 35px;
+  cursor: default;
+}
+
+.heading-desc {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  cursor: default;
+}
+
+.heading-desc--gray {
+  color: #333333;
+  padding-left: 20px;
+}
+
+.main__slider {
+  padding-top: 180px;
+}
+
+.main__flex-wrapper{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.main__slider--left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main__slider--right {
+  display: flex;
+  gap: 1px;
+  cursor: pointer;
+}
+
+.right__item {
+  display: flex;
+  background: #ff5f01;
+  border-radius: 4px;
+  width: 64px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__right-icons{
+   position: absolute;
+   right: 30px;
+   top: 230px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+/* End section main */
