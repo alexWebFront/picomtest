@@ -23,6 +23,11 @@ p {
   cursor: default;
 }
 
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 .container {
   padding-left: 208px;
   padding-right: 208px;
@@ -165,7 +170,7 @@ p {
 /* Start section outfit */
 
 .outfit {
-  padding: 41px 643px 81px 0;
+  padding: 41px 0 81px 0;
 }
 
 .outfit__menu {
@@ -181,6 +186,10 @@ p {
   line-height: 180%;
 }
 
+.p-width {
+  width: 860px;
+}
+
 /* End section outfit */
 
 /* Start section catalog */
@@ -193,7 +202,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 }
 
 .catalog__link {
@@ -213,7 +221,9 @@ p {
 .catalog__content {
   padding-top: 27px;
   display: flex;
-  gap: 40px;
+  justify-content: space-between;
+  gap: 34px;
+  flex-wrap: wrap;
 }
 
 /* End section catalog */
@@ -224,10 +234,10 @@ p {
   padding-bottom: 47px;
 }
 
-.collection-flex{
-   display: flex;
-   gap: 163px;
-   padding-top: 27px;
+.collection-flex {
+  display: flex;
+  gap: 163px;
+  padding-top: 27px;
 }
 
 .collection__heading {
@@ -238,8 +248,12 @@ p {
   padding-bottom: 43px;
 }
 
-.collection__padding{
-   padding-top: 72px;
+.collection__padding {
+  padding-top: 72px;
+}
+
+.collection__right-image {
+  object-fit: cover; /* Вписываем фотографию в область */
 }
 
 /* End section collection */
